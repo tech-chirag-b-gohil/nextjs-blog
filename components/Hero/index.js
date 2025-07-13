@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import classes from './styles.module.css';
+
 function Hero() {
   return (
     <section className={classes.hero}>
@@ -12,7 +13,7 @@ function Hero() {
           priority
         />
       </div>
-      <h1>Welcome to My Next.js Blog App</h1>
+      <h1>Welcome to Next.js Blog App</h1>
       <p>Blog about various topics related to web development.</p>
     </section>
   );
