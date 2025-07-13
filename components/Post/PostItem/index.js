@@ -20,7 +20,7 @@ function PostItem(props) {
     <li className={classes.post}>
       <Link href={linkPath}>
         <div className={classes.image}>
-          <Image src={imagePath} alt={title} layout="responsive" width={300} height={200} />
+          <Image src={imagePath} alt={title} fill />
         </div>
         <div className={classes.content}>
           <h3>{title}</h3>
