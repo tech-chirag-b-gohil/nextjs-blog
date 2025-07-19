@@ -52,7 +52,7 @@ function Contact() {
 
       return () => clearTimeout(timer);
     }
-  }, [requestStatus]);
+  }, [requestStatus, error]);
 
   async function handleSubmit(event) {
     event.preventDefault();
